@@ -1,0 +1,46 @@
+/* Global Baseline Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure smooth scrolling across the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Image optimization */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Link reset */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Button reset */
+button {
+  font-family: inherit;
+}
+
+/* Text selection styling */
+::selection {
+  background-color: #00d4ff;
+  color: #0a0e27;
+}
